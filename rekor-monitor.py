@@ -134,7 +134,7 @@ def write_state(uuids):
 
 
 def main():
-    parser = argparse.ArgumentParser("dangerzone-rekor-monitor")
+    parser = argparse.ArgumentParser("rekor-monitor")
     parser.add_argument(
         "--slack",
         action="store_true",
