@@ -8,9 +8,6 @@ this key, so we can audit it.
 
 Notification goes trough slack, using the "SLACK_WEBHOOK_URL" env variable.
 
-The script keeps no state and is meant to be run every X hours, looking up for
-events that happened during this time window.
-
 Typical usage:
 
 ```bash
